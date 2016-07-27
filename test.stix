@@ -1,0 +1,1402 @@
+<stix:STIX_Package
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:example="http://example.com"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="example:Package-bfbd010a-735b-485a-91f5-84b90c01990b" version="1.1.1" timestamp="2015-07-13T23:10:09.104206+00:00">
+    <stix:STIX_Header>
+        <stix:Description>CybOX-represented Indicators extracted with export_iocs</stix:Description>
+    </stix:STIX_Header>
+    <stix:Indicators>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-67365438-0ba5-4040-a9c8-55bdfe6c378d">
+                <cybox:Object id="example:URI-9bea65c1-0a57-46fa-b1b9-8df867b5f8ed">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>malware.prevenity.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ca796aea-a002-481e-b999-f124419da93a">
+                <cybox:Object id="example:URI-76e51925-c63d-4582-98b5-0c3b4d2bbb01">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>n0vinite.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-02d0ebbf-53e1-4514-8cc1-22a67035d3d8">
+                <cybox:Object id="example:URI-f3273bde-95e8-4739-8016-5ee9618861c9">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>domainkavkazcentr.infornil.am</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-e9b70534-68e5-4a54-a57e-dd84771167f9">
+                <cybox:Object id="example:URI-62500a77-32e9-48bd-8a2f-b311415f2a5a">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>windous.kz</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-582689cd-3adc-464d-bbf1-4cb800bd3bf9">
+                <cybox:Object id="example:URI-37864389-a73e-4ab6-8b1f-a68b6fc6df75">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>wind0ws.kz</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-a5093601-80f1-42ab-97a0-665e5eb8efe3">
+                <cybox:Object id="example:URI-6b515136-f16a-41a4-a817-d32747aac066">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>poczta.mon.q0v.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-50fb4e13-9e79-46b5-afa4-057fad76fc4b">
+                <cybox:Object id="example:URI-4b218227-83ea-4406-ab55-46ac864e616d">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.kam.lt</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-cf53c4df-80c2-46e8-94ad-cc22da17115b">
+                <cybox:Object id="example:URI-d7d35cc9-0b08-4b32-b86e-b1a809406095">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>q0v.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-71543645-221a-4b17-8a1d-ac66233c99d3">
+                <cybox:Object id="example:URI-adc8f79f-f70a-4677-91ef-599b96891eca">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>uropa.eu</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-e4f9dc3c-37d0-4e96-a18f-8ab544a69bfa">
+                <cybox:Object id="example:URI-fdb582a3-9038-4111-bb5a-38e9a83e5d3d">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mail.gov.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ba3a1ae2-1292-44e3-b9df-8357f85a9665">
+                <cybox:Object id="example:URI-7e33fdb3-339e-440f-bf57-c6cd14af73c4">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>natoexhibition.org</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-8db8200b-291f-4ff1-8f05-11ec0b775f28">
+                <cybox:Object id="example:URI-64b35f65-6b75-4ad9-856b-deeae21356dc">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mail.ru</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-34ead400-532c-4e7e-89bb-68f8673ef0c8">
+                <cybox:Object id="example:URI-0bed0764-e8f3-4da9-a4e5-147cb32d1797">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>novinitie.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-5c129bfd-3d0f-4e0d-b034-9be2c1a6e0a9">
+                <cybox:Object id="example:URI-bfde71e0-bc34-46c4-aedd-d6dd68f17ce5">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>ae.norton.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-d2ba3890-59fe-4fb4-8ebc-9e616fdaebf0">
+                <cybox:Object id="example:URI-80269950-7508-4709-8846-211bff65d44d">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mia.ge.gov</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-c3ea2daf-4f7a-4233-9dd9-53dceedf8dfe">
+                <cybox:Object id="example:URI-0dec06be-a22e-468b-abd6-ff0745f2e3f6">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.mil.ee</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ff2e134c-259d-4cfd-b702-739f61cdcdf8">
+                <cybox:Object id="example:URI-a48f1007-60ec-4c1a-8819-b2b7ba1bb46a">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>poczta.mon.gov.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-27c7930a-c9cf-4e68-8979-536c6b36323e">
+                <cybox:Object id="example:URI-f5070e2e-7af4-4f86-9bf9-58eedfa8a6a3">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mia.gov.ge</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-558ebabf-bcd6-4574-99e0-77b8e7bea570">
+                <cybox:Object id="example:URI-6f680cd2-6777-404c-9558-c7a4ea2e0503">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>kavkazcenter.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-008384ff-0d9c-491f-9d5c-06fc0dbdcdb5">
+                <cybox:Object id="example:URI-a1fb67af-4dc1-4bd6-9f44-ae589301320f">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>qov.hu.comq0v.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-a4c6f4cd-5c28-4240-b5d3-80e6e454d245">
+                <cybox:Object id="example:URI-a082cdaf-4976-413e-8daa-674b9e32a530">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>login-osce.org</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-42b10405-be7e-478d-9c2d-aa8bd50ecb25">
+                <cybox:Object id="example:URI-60db3ef0-15c9-49c5-ae16-dd51050d719a">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.nytimes.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-4e8f940b-e7eb-4ee3-91d6-8a260712369f">
+                <cybox:Object id="example:URI-97abc1dd-f8df-4916-8378-1d05b8931fb8">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>domainnato.nshq.innatoexhibitionff14.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-b7d7d125-b4c9-475d-9eed-aba5beaf54be">
+                <cybox:Object id="example:URI-669a5d50-be74-4cf0-a18e-53f878c6c971">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>smigroup-online.co.uk</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-a619935c-56d4-4c1a-83ab-0bc65eb089df">
+                <cybox:Object id="example:URI-9960d89b-3b97-48d7-ac4a-41500f4965ce">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.freedomhouse.org</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-1f17b862-5162-44ac-aed9-a7e3b41f0ebc">
+                <cybox:Object id="example:URI-42871bf1-dc11-49e2-a1ec-d2957c083bf3">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>rt.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-5f7db4bf-c4a5-402a-b1df-e7be98d3f250">
+                <cybox:Object id="example:URI-c5ff1e95-9e7f-4748-b507-a3f4712ee5db">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>rnil.am</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-9ea1a7a1-a793-4d69-b985-702ce78edf3f">
+                <cybox:Object id="example:URI-a53cf5d5-12a9-4cd0-a02d-46c3dc2ea5db">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>baltichost.org</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-98ad3f32-ee83-4875-9ab2-e27d3e99fe3c">
+                <cybox:Object id="example:URI-af39f863-ec7b-4cb3-8a8d-162fe775098e">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.upi.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-227eeffa-c5ee-46d9-88f5-96c2a6e52167">
+                <cybox:Object id="example:URI-6e3727e8-f448-4f10-b28a-1e4da0d0a7ce">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>nshq.nato.int</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-d5d1ca70-af08-4bc2-b0b8-117409085c8e">
+                <cybox:Object id="example:URI-5535242f-f7e8-414f-99f3-0edc23bbcef2">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>msdn.microsoft.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-dd58c1c3-e921-42a1-8b4c-150959155b0f">
+                <cybox:Object id="example:URI-4840b582-2392-4824-bf99-7584fc04ef95">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mail.q0v.plpoczta.mon.q0v.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-491d3f37-84ae-4eec-ac78-e9d18cd04711">
+                <cybox:Object id="example:URI-198f1db2-f8ed-4ebb-98e1-8a4a8022844b">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>kavkazcentr.info</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-53993868-4771-4bee-a123-7b39d698af8c">
+                <cybox:Object id="example:URI-ccf4f9d3-66f4-4867-9001-5ce84e2a1ae1">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>windows-updater.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-76dff91e-385b-4922-a86a-f57280d0ed83">
+                <cybox:Object id="example:URI-8cb7cea0-6c0a-425b-bb3e-664b24cb4d6d">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>www.fireeye.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-7b04eee3-4b58-4e23-8a9d-617340bd0a84">
+                <cybox:Object id="example:URI-477f8b2c-6495-415a-a35a-4b9ae964b5ad">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mail.q0v.pl</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-2503fd8a-f67d-4230-b215-a46fe9970381">
+                <cybox:Object id="example:URI-c0d300e0-6a8d-46ef-9397-3dad63014e73">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>voiceofrussia.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-51f54acc-7bdf-42e3-9a9f-0f76a963c444">
+                <cybox:Object id="example:URI-1c582d11-48b3-42f9-bf98-141f267f5176">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>natoexhibitionff14.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-e0ebd8de-a77e-49ca-b425-e0d707dafab7">
+                <cybox:Object id="example:URI-e39492cb-65e5-4c8a-874a-4fb6117b4162">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>nato.nshq.in</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-20a5eb9a-70a5-41e3-b7a5-95af95bbf996">
+                <cybox:Object id="example:URI-19e75c7d-c4ac-4586-bdbb-e4d8efbfeab4">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>standartnevvs.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-aeb1140a-1600-4c34-82ab-2b6ce0ddb0f0">
+                <cybox:Object id="example:URI-ce3ddddf-98a7-46ba-813c-c9e5df3b8b0b">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>mail.ru.al</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-2c7e2454-9ad1-43f8-be93-831cb01e72dd">
+                <cybox:Object id="example:URI-e728065b-5a5c-4946-a7db-7a301ffa127b">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>police.ge</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-22a76cb6-722f-4d52-9475-1ae3eb429cfa">
+                <cybox:Object id="example:URI-b090c92d-ec78-49d1-9f79-14750e56245e">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>fireeye.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-9a845835-63db-40ef-8b26-66c20fbd8d78">
+                <cybox:Object id="example:URI-9e556ffe-984f-4c7b-9983-eb3d30bed09b">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>standartnews.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-4943fa6e-55ce-4d63-ab9f-7926e1b985cd">
+                <cybox:Object id="example:URI-550a1162-7150-4395-9aeb-bb66dfe1310c">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>novinite.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-13912bba-e016-4111-bd62-7d3f261639eb">
+                <cybox:Object id="example:URI-729817cb-3382-425f-9f2d-569b674f624e">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>domainstandartnevvs.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-7a10ea4d-1293-4f56-8f67-73a069bb58bc">
+                <cybox:Object id="example:URI-4ad6c4c2-782e-46fb-8abd-af7c37a3f52f">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>online.co.uk</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-00655d3d-6295-4f84-a618-603c69a19ed4">
+                <cybox:Object id="example:URI-2261529f-e9b2-44f3-9e13-c5d3cf5ce2e3">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>qov.hu.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-c6731955-b833-4878-8d7f-e05cea03c38b">
+                <cybox:Object id="example:URI-7fc85ecd-3e8d-4fe0-b862-edfe09167ff9">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>adobeincorp.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-a21a93bb-ea85-485e-822d-7a71794fbfbe">
+                <cybox:Object id="example:URI-787d75f2-8b62-40d5-8736-d0fd5248365c">
+                    <cybox:Properties xsi:type="URIObj:URIObjectType" type="Domain Name">
+                        <URIObj:Value>adawareblock.com</URIObj:Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-f1acf66f-c992-452f-a7ea-12d0a3c0f342">
+                <cybox:Object id="example:Address-55b94bf8-d35f-4dbe-a0c3-9c7ddfba21ff">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>nato_smtp@mail.ru</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-d43fc73a-ca01-4d40-aa78-1404cdf2f60a">
+                <cybox:Object id="example:Address-75a02688-720d-46b8-ae0d-7d26c16514dc">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>nato_pop@mail.ru</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-653c922e-8876-4f3d-a78f-7e0ee1893e99">
+                <cybox:Object id="example:Address-e1962a3f-3909-4dc6-adcf-3084da4e4237">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>nato_pop@mail.ru.al</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ebad9314-9e40-409b-b2d8-dab05282edc1">
+                <cybox:Object id="example:Address-fd59eecc-39c1-41bd-ac5b-770af816d357">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>info@fireeye.com</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-f3874744-dc04-44f5-847e-bff34b0d4bbc">
+                <cybox:Object id="example:Address-8dcfec08-fb4b-4977-a8b0-063c4fe32914">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>lisa.cuddy@wind0ws.kz</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-27ab9055-27a9-425b-a8c9-6b8eaf63b254">
+                <cybox:Object id="example:Address-db004463-b6e0-42b5-8fbf-5d120f3c24b2">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>(@mia.gov.ge</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-df7baee4-3520-4e32-a761-2ee75ee7736e">
+                <cybox:Object id="example:Address-89960f35-f2a3-48d1-8b44-d5dc9494171f">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="e-mail">
+                        <AddressObj:Address_Value>dr.house@wind0ws.kz</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ec2442b6-f361-4fb1-8a36-d18ef670fac7">
+                <cybox:Object id="example:File-533b5b83-7481-41f7-8cf4-02a1fd50abe2">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>8C4FA713C5E2B009114ADDA758ADC445</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-c0160471-7477-41a3-aa6b-c84de3b09bf6">
+                <cybox:Object id="example:File-aee91ebe-de30-4240-ac3f-2774d20b564a">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>3B0ECD011500F61237C205834DB0E13A</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-c546a2fc-0193-482b-9f7e-9e67100976ae">
+                <cybox:Object id="example:File-f03cabb0-5b1e-41c3-8242-0eed009307e8">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>E2021791428601AD12B9230B9ACE4F21</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-ca6c6f16-ee63-4b87-a4c1-9b7cac856334">
+                <cybox:Object id="example:File-aaa78b99-31f2-42fc-8d44-09fbfa76c644">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>791428601AD12B9230B9ACE4F2138713</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-01fa554a-2808-4a61-86c5-abdb42c54a7f">
+                <cybox:Object id="example:File-f33cde44-8c9b-44c0-8169-ec55971e6748">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>5882FDA97FDF78B47081CC4105D44F7C</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-12a5d705-dd03-4373-af92-fe7fb335c2c6">
+                <cybox:Object id="example:File-b505d9b0-3ebb-4fa4-bb65-b0e4b8f0af07">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>DA2A657DC69D7320F2FFC87013F257AD</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-340c691c-772d-4731-a916-26e591d0f638">
+                <cybox:Object id="example:File-cbce9795-3b9d-4561-98b2-b52d328e7703">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>48656A93F9BA39410763A2196AABC67F</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-8e295c92-54bd-441b-a204-c5bed2c7921d">
+                <cybox:Object id="example:File-43f3bbc4-f639-4824-83cd-628edc079a49">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>9EEBFEBE3987FEC3C395594DC57A0C4C</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-0b3f7317-d226-4179-ba4c-a4bfb573d210">
+                <cybox:Object id="example:File-1e318ae0-7811-40b8-ac19-1a864098f01f">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>E228C4FA713C5E2B009114ADDA758ADC</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-59bfb939-673d-49ef-9340-16981f2bd268">
+                <cybox:Object id="example:File-86e362f5-f607-46cc-a01c-7852f89126be">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>18B92FE86C5B7A9E34F433A6FBAC8BC3</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-396fcf82-e6fb-4727-810b-c88248696dec">
+                <cybox:Object id="example:File-728e4eca-f787-43c8-a05f-a342f0f147c0">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>8B92FE86C5B7A9E34F433A6FBAC8BC3A</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-a7d01766-af3e-400a-819a-2ebb559373e0">
+                <cybox:Object id="example:File-e3816dd9-fcab-40cd-86f2-9581aaa70b74">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>E5882FDA97FDF78B47081CC4105D44F7</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-4656c764-13ad-44e1-8b55-4e84d27bff4d">
+                <cybox:Object id="example:File-4b88f097-59f5-44e4-b722-359bebc9f234">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>EAD4EC18EBCE6890D20757BB9F5285B1</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-793be94f-882e-47af-9ca1-64772fd3169a">
+                <cybox:Object id="example:File-cfe437bc-1d8b-47b8-8da0-051a4695245d">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>E9EEBFEBE3987FEC3C395594DC57A0C4</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-87ea3d4d-4fb7-44cd-bb97-fd85407a90c4">
+                <cybox:Object id="example:File-9e6370fc-0a8a-4c01-83dd-dfba1014e7e9">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>1259C4FE5EFD9BF07FC4C78466F2DD09</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-52c92e83-4b76-4b34-a109-7895687ddace">
+                <cybox:Object id="example:File-83b710fa-3edf-4571-898b-3cd04172783e">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>272F0FDE35DBDFCCBCA1E33373B3570D</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-cbe6d950-1bf5-4bfc-86c7-cc3b604d82c0">
+                <cybox:Object id="example:File-dd68f1ef-2d79-43f3-bc5b-58e5ef2a8ffe">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>E171819DA2A657DC69D7320F2FFC8701</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+        <stix:Indicator xsi:type='indicator:IndicatorType'>
+            <indicator:Title>export_iocs STIX export</indicator:Title>
+            <indicator:Observable id="example:Observable-d8d606d2-17ef-4888-b833-d331fe6da131">
+                <cybox:Object id="example:File-4a57b976-12e4-4012-a9a6-4867b85228ee">
+                    <cybox:Properties xsi:type="FileObj:FileObjectType">
+                        <FileObj:File_Name/>
+                        <FileObj:Hashes>
+                            <cyboxCommon:Hash>
+                                <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA256</cyboxCommon:Type>
+                                <cyboxCommon:Simple_Hash_Value>2011201120112012201220122012201220122013201320132013201320132013</cyboxCommon:Simple_Hash_Value>
+                            </cyboxCommon:Hash>
+                        </FileObj:Hashes>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Producer>
+                <stixCommon:Tools>
+                    <cyboxCommon:Tool>
+                        <cyboxCommon:Name>export_iocs</cyboxCommon:Name>
+                    </cyboxCommon:Tool>
+                </stixCommon:Tools>
+            </indicator:Producer>
+        </stix:Indicator>
+    </stix:Indicators>
+</stix:STIX_Package>
